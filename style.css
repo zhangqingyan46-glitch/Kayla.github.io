@@ -43,4 +43,46 @@ body {
   flex: 1;                 /* 占剩余空间 */
   padding: 20px;
 }
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #FFD700; /* 悬停变金色 */
+}
+
+.sidebar a.active {
+  color: #4CAF50; /* 当前页面绿色高亮 */
+}
+:root {
+  --primary-color: #4CAF50;  /* 主色 */
+  --secondary-color: #FFD700; /* 辅助色 */
+  --bg-color: #f0f0f0;        /* 页面背景色 */
+}
+
+body {
+  background-color: var(--bg-color);
+}
+h1, h2 {
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+
 
