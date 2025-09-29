@@ -83,6 +83,34 @@ button {
 button:hover {
   background-color: var(--secondary-color);
 }
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  width: 120px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
 
 
 
