@@ -24,3 +24,23 @@ nav a.active {
 body {
   font-family: 'Roboto', sans-serif;
 }
+/* 外层容器 */
+.container {
+  display: flex;           /* 使用 Flexbox 做左右布局 */
+  min-height: 80vh;        /* 页面高度自适应 */
+}
+
+/* 左侧导航栏 */
+.sidebar {
+  width: 200px;            /* 固定宽度 */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* 右侧内容区 */
+.content {
+  flex: 1;                 /* 占剩余空间 */
+  padding: 20px;
+}
+
